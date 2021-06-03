@@ -52,7 +52,7 @@ public class Validate {
 			System.out.println("Date to correct format(dd/mm/yyyy)");
 			System.out.println("Enter Date:");
 			date = sc.nextLine();
-			checkEmail(date);
+			checkDate(date);
 		}
 		return date;
 	}
